@@ -1,0 +1,98 @@
+header {
+    background-color: #333;
+    color: white;
+    padding:0;
+ }
+
+nav {
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-link{
+   color: #fff;
+   text-decoration: none;
+}
+
+.up-title{
+   color:aqua;
+}
+
+
+.text{
+    text-align: center;
+  }
+
+.about-text{
+   padding: 20px;
+  }
+
+.container{
+   display: flex;
+    flex-wrap:wrap;
+}
+
+.row{
+   display: flex;
+   flex-basis: 70%;
+}
+
+.feature{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    overflow: clip;
+ }
+ 
+ .about-falak {
+     width: 175px;
+     height:275px;
+     border: 2px solid #ccc;
+     border-radius: 10px;
+  }
+
+  .h3{
+   
+      display: block;
+      font-size: 1.17em;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      unicode-bidi: isolate;
+  
+  }
+ 
+
+
+
+  .footer-container {
+    display:flex;
+    flex-direction: row;
+    background-color:#333;
+    color:white;
+    padding: 15px;
+    align-items: center;
+ }
+ 
+ .footer-container a{
+    color: white;
+    margin:0 20px;
+    text-decoration: none;
+    align-items: center;
+     display: flex;
+ }
+ 
+ .footer-img {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+ }
+ 

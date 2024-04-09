@@ -24,12 +24,14 @@ nav ul li{
    text-decoration: none;
 }
 
+.up-title{
+   color:aqua;
+}
+
+
 .main-section {
-      background-image: url(image/15.jpg);
-      background-size :contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      color: black;
+      background-color:bisque;
+      color:black;
       padding:10px;
       height: 500px;
       text-align: center;
@@ -72,41 +74,4 @@ nav ul li{
    height: 50px;
    margin: 15px;
 }
-
-
-/*
-.div-container{
-display: inline-flex;
-flex-direction: column;
-
-}
-
-
-
-
- .div-form{
-   margin: 20px 0;
- }
-
-
-
- .features{
-
-   display: flex;
-   flex-direction: column;
-   padding: 50px;    
- }
-
- .feature-img{
-   width: 200px;
-      height: 200px;
- }
-
-
-
- .footer-img {
-    width: 10px;
-    height: 10px;
-   
- } */
 
