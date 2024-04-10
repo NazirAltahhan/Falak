@@ -1,3 +1,7 @@
+body {
+   margin: 0;
+}
+
 header {
     background-color: #333;
     color: white;
@@ -33,9 +37,15 @@ nav ul li{
    padding: 20px;
   }
 
+  .main-container{
+   display: flex;
+   flex-direction: row;
+  }
+
 .container{
    display: flex;
-    flex-wrap:wrap;
+   /* flex-wrap:wrap; */
+   flex-direction: column;
 }
 
 .row{
@@ -45,9 +55,14 @@ nav ul li{
 
 .feature{
     display: flex;
-    text-align: center;
-    margin-top: 50px;
-    overflow: clip;
+    /* text-align: center; */
+    margin: 20px;
+    /* overflow: clip; */
+    align-items: center;
+ }
+
+ .feature h3{
+   margin: 20px;
  }
  
  .about-falak {
@@ -56,21 +71,6 @@ nav ul li{
      border: 2px solid #ccc;
      border-radius: 10px;
   }
-
-  .h3{
-   
-      display: block;
-      font-size: 1.17em;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      font-weight: bold;
-      unicode-bidi: isolate;
-  
-  }
- 
-
 
 
   .footer-container {

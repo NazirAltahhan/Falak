@@ -1,3 +1,7 @@
+body {
+   margin: 0;
+}
+
 header {
     background-color: #333;
     color: white;
@@ -38,11 +42,15 @@ nav ul li{
 
   .container {
     display: flex;
-    flex-direction :initial;
-    width: 300px;
-    height: 300px;
-    margin: 15px; 
-    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    /* align-items: center; */
+    /* width: 300px; */
+    /* height: 300px; */
+    /* margin: 15px;  */
+    /* padding: 20px; */
 }
 
 p{
@@ -56,15 +64,11 @@ h3{
    color: brown;
 }
 
-.container {
-   display: flex;
-   flex-wrap: wrap;
- }
 
- .flex-item{
-   flex: 1 0 30%;
-   margin: 10px; 
- }
+ /* .flex-item{ */
+   /* flex: 1 0 30%; */
+   /* margin: 10px;  */
+ /* } */
 
 
 .feature {
